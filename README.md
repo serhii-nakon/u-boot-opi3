@@ -25,5 +25,5 @@ How write U-Boot image to eMMC integrated in SBC
 Please make sure that your selected correct /dev/mmcblk or /dev/sd devices.
 
 This info taken from:
-https://linux-sunxi.org/Bootable_eMMC#Installation_from_Linux
-https://linux-sunxi.org/Bootable_SD_card#Cleaning
+1. https://linux-sunxi.org/Bootable_eMMC#Installation_from_Linux
+2. https://linux-sunxi.org/Bootable_SD_card#Cleaning
