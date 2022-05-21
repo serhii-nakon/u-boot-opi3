@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
+set -e
+
 apt update
-apt install gcc-aarch64-linux-gnu bison flex swig python-dev build-essential device-tree-compiler python3 python3-dev libssl-dev git bc python3-setuptools sed gcc-or1k-elf -y
+apt install gcc-aarch64-linux-gnu bison flex swig python2-dev build-essential device-tree-compiler python3 python3-dev libssl-dev git bc python3-setuptools sed gcc-or1k-elf -y
 
 cd /root
 git clone --single-branch --branch v2022.04 https://github.com/u-boot/u-boot.git
