@@ -4,9 +4,9 @@ apt update
 apt install gcc-aarch64-linux-gnu bison flex swig python-dev build-essential device-tree-compiler python3 python3-dev libssl-dev git bc python3-setuptools sed gcc-or1k-elf -y
 
 cd /root
-git clone --single-branch --branch v2021.10 https://github.com/u-boot/u-boot.git
-git clone --single-branch --branch v2.5 https://github.com/ARM-software/arm-trusted-firmware.git
-git clone --single-branch --branch v0.4 https://github.com/crust-firmware/crust.git
+git clone --single-branch --branch v2022.04 https://github.com/u-boot/u-boot.git
+git clone --single-branch --branch v2.6 https://github.com/ARM-software/arm-trusted-firmware.git
+git clone --single-branch --branch v0.5 https://github.com/crust-firmware/crust.git
 
 cd /root/arm-trusted-firmware
 
