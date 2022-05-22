@@ -12,7 +12,8 @@ git clone --single-branch --branch v0.5 https://github.com/crust-firmware/crust.
 
 cd /root/arm-trusted-firmware
 
-make -j 16 CROSS_COMPILE=aarch64-linux-gnu- PLAT=sun50i_h6 bl31
+patch -p1 < /root/patches/0001-allow_to_skip_PMIC_regulator_setup.patch
+make -j 16 CROSS_COMPILE=aarch64-linux-gnu- PLAT=sun50i_h6 SUNXI_SETUP_REGULATORS=0 bl31
 
 cd /root/crust
 
